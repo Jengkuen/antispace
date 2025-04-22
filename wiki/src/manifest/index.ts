@@ -1,15 +1,16 @@
+//@ts-nocheck
 import type { AntispaceAppManifest } from "@antispace/sdk"
 import * as functions from "./functions"
 
 /**
- * Manifest configuration for the app.
+ * Manifest configuration for the Wiki app
  */
 const manifest: AntispaceAppManifest<typeof functions> = {
-  name: "My Antispace App",
-  slug: "my-antispace-app",
+  name: "Wikipedia Integration",
+  slug: "wiki-integration",
   wantsPage: false,
   wantsRefresh: false,
-  hotkey: "a",
+  hotkey: "w",
   functions,
 }
 

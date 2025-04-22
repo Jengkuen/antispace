@@ -1,12 +1,13 @@
 {
-  "name": "integration-1",
+  "name": "wiki-integration",
   "scripts": {
     "dev": "tsx watch src/index.tsx",
     "db:generate": "drizzle-kit generate",
     "db:up": "drizzle-kit up"
   },
   "dependencies": {
-    "@antispace/sdk": "latest"
+    "@antispace/sdk": "latest",
+    "util": "^0.12.5"
   },
   "devDependencies": {
     "@types/node": "20.11.17",

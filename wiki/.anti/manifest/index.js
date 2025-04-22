@@ -35,14 +35,14 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 const functions = __importStar(require("./functions"));
 /**
- * Manifest configuration for the app.
+ * Manifest configuration for the Wiki app
  */
 const manifest = {
-    name: "My Antispace App",
-    slug: "my-antispace-app",
+    name: "Wikipedia Integration",
+    slug: "wiki-integration",
     wantsPage: false,
     wantsRefresh: false,
-    hotkey: "a",
+    hotkey: "w",
     functions,
 };
 exports.default = manifest;
